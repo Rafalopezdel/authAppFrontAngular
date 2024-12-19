@@ -1,0 +1,21 @@
+<h1 class="flex-col-c p-t-5">Dashboard</h1>
+<hr>
+<div class="container-md p-t-40">
+    <h3 class="flex-col-c p-t-5 txt2">User</h3>
+    <pre class="flex-col-c p-t-5 txt1">{{ user() | json }}</pre>
+</div>
+
+<br>
+<!-- <span routerLink="/auth/login">Ir a login</span> -->
+
+<!-- <button (click)="onLogout()" class="login100-form-btn">Cerrar Sesión</button> -->
+<div class="container-login100-form-btn p-t-20">
+    <div class="wrap-login100-form-btn">
+        <div class="login100-form-bgbtn"></div>
+        <button class="login100-form-btn"
+                (click)="onLogout()"
+                type="submit">
+                Logout
+        </button>
+    </div>
+</div>
