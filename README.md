@@ -23,8 +23,8 @@ Este proyecto corresponde al frontend del sistema de autenticación desarrollado
 
 1. Clona el repositorio:
   ```bash
-   git clone https://github.com/tu-usuario/frontend-auth-app.git
-   cd frontend-auth-app
+   git clone https://github.com/Rafalopezdel/authAppFrontAngular.git
+   cd authAppFrontAngular
    ```
 2. Instala las dependencias:
   ```bash
